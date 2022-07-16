@@ -7,15 +7,15 @@
   font-size: 26px;
   line-height: 1.1;
   text-decoration: none;
+}
 
-  &--position {
-    display: inline-block;
-    margin-bottom: 20px;
+.logo--position {
+  display: inline-block;
+  margin-bottom: 20px;
 
-    color: $primery-bg-color;
-  }
+  color: var(--primery-bg-color);
+}
 
-  &-text {
-    color: $accent-color;
-  }
+.logo-text {
+  color: var(--accent-color);
 }

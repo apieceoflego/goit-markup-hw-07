@@ -12,20 +12,20 @@
     rel="stylesheet" />
   <link rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" />
-  <link rel="stylesheet" href="./css/styles.css" />
+  <link rel="stylesheet" href="./css/main.min.css" />
 </head>
 
 <body>
   <header class="header">
     <div class="header__block container">
-      <a class="header__logo" lang="en" href="./index.html"><span class="header__logo-text">Web</span>Studio</a>
+      <a class="logo" lang="en" href="./index.html"><span class="logo-text">Web</span>Studio</a>
       <nav class="site-nav">
         <ul class="site-nav__list list">
           <li class="site-nav__item">
-            <a class="site-nav__link" href="./index.html">Студия</a>
+            <a class="site-nav__link site-nav__link--current" href="./index.html">Студия</a>
           </li>
           <li class="site-nav__item">
-            <a class="site-nav__link site-nav__link--current" href="./portfolio.html">Портфолио</a>
+            <a class="site-nav__link" href="./portfolio.html">Портфолио</a>
           </li>
           <li class="site-nav__item">
             <a class="site-nav__link" href="#">Контакты</a>
@@ -203,8 +203,7 @@
     <div class="container">
       <div class="footer-block">
         <div class="footer-contact">
-          <a class="header__logo header__logo--position" lang="en" href="./index.html"><span
-              class="header__logo-text">Web</span>Studio</a>
+          <a class="logo logo--position" lang="en" href="./index.html"><span class="logo-text">Web</span>Studio</a>
           <address>
             <ul class="list">
               <li class="footer-contact__item">
@@ -253,9 +252,9 @@
           <h3 class="footer-mailing__title">Подпишитесь на рассылку</h3>
           <form class="footer-mailing__form">
             <input class="footer-mailing__input" type="email" name="email" placeholder="E-mail">
-            <button class="footer-mailing__btn " type="submit">
+            <button class="btn footer__btn" type="submit">
               Подписаться
-              <svg class="footer-mailing__logo" width="24" height="24">
+              <svg class="btn__logo" width="24" height="24">
                 <use href="./images/SVG/icons.svg#send"></use>
               </svg>
             </button>
